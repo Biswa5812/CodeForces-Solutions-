@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    long long n;
+    cin>>n;
+    if(n==1)
+    {
+        cout<<"NO";
+    }
+    else if(n%2==0 && n>2)
+    {
+        cout<<"YES";
+    }
+    else
+    {
+        cout<<"NO";
+    }
+}
